@@ -10,7 +10,7 @@
 3. Install **appium-doctor**:  `sudo npm install appium-doctor -g`
 **Note**
 <br/>
- `WebdriverIO` will work as our __client__ for the appium server in the case of JS. More to come on how to use other clients such as python.
+ `WebdriverIO` will work as our <i>client<i/> for the appium server in the case of JS. More to come on how to use other clients such as python.
 <br/>
 `babel-plugin-jsx-remove-data-test-id` will help us remove unwanted accessibilityLabels from our app, since that’s the preferred way of targeting elements for both IOS and Android platforms
 <br/>
@@ -22,13 +22,13 @@
 
 To run the Appium Doctor based on the host OS we want to test in, simply execute:
 <br/> 
-<h1> For Android <h1/>
+<h3> For Android <h3/>
 <br/>
 
 `appium-doctor --android`
 
 <br/>
-<h1> For iOS <h1/>
+<h3> For iOS <h3/>
 
 `appium-doctor --ios`
 <!-- ## Configure **WebDriverIO**

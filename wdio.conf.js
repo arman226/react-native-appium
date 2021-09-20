@@ -1,4 +1,6 @@
 exports.config = {
+    port: 4723,
+    path: '/wd/hub/',
     //
     // ====================
     // Runner Configuration
@@ -54,10 +56,15 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+        maxInstances: 1,
         //
-        browserName: 'chrome',
-        acceptInsecureCerts: true
+        browserName: '',
+        acceptInsecureCerts: true,
+        platformName: 'Android',
+        // app: './android/app/build/outputs/apk/debug/app-debug.apk',
+        // platformVersion: 'Android',
+        // deviceName: 'Nexus 6P API 29',
+        // automationName: 'UiAutomator2'
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
@@ -94,7 +101,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://localhost',
+    baseUrl: '0.0.0.0',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,

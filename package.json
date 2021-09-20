@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@wdio/cli": "^7.12.6",
+    "chai": "^4.3.4",
     "react": "17.0.2",
     "react-native": "0.65.1",
     "wd": "^1.14.0",

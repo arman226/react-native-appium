@@ -5,7 +5,7 @@
 
 1. Install **Appium** : `npm install -g appium` or  `sudo npm install --unsafe-per=true -g appium`
 <!-- 2. Install **WebDriverIO**, an open-source testing utility for NodeJS that supports Appium. : `npm install --save webdriverio @wdio/cli`
-3. Install **ChaiJS** to support assertion statements : `npm install --save chai` --> -->
+3. Install **ChaiJS** to support assertion statements : `npm install --save chai` --> 
 2. Install these dependencies: `npm i -D webdriverio babel-plugin-jsx-remove-data-test-id concurrently`
 3. Install **appium-doctor**:  `sudo npm install appium-doctor -g`
 **Note**
